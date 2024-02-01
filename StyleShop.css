@@ -1,0 +1,98 @@
+body{
+    background-color: #2f3136;
+}
+
+.Banner {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+.Banner h1 {
+    font-size: 55px;
+    font-family: "Arial", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Banner p {
+    font-size: 25px;
+    font-family: "Anton", sans-serif;
+    color:  #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Bandeau {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.Bandeau a{
+    display: inline-block;
+    margin: 4px;
+    padding: 5px 10px 2px;
+    background: #212225;
+    font-family: "Anton",serif;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Bandeau a:hover{
+    background-color: #3498db;
+}
+
+.Cartes {
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.Cartes img {
+    max-width: 60%;
+    height:auto;
+    object-fit: cover;
+    margin-left: 20%;
+}
+
+.Cartes infos {
+    padding: 15px;
+}
+
+h2, p {
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h4{
+    margin: 10px;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+h5{
+    margin: 10px;
+    color: white;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+#FortniteSkin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <title>Fortnite Item Shop (FIS)</title><meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="StyleShop.css" />
+        <script type="text/javascript" src=FetchShop.js> </script>
+        <link href="https://fonts.cdnfonts.com/css/anton" rel="stylesheet">
+                
+        
+        <div class="Banner">
+            <h1>Fortnite Item Shop</h1>
+            <p><script>document.write(new Date().toLocaleDateString('en-UK', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }));</script></p>
+        </div>
+    </head>
+
+    <body onload="FetchShop('outfit')">
+        <div class="Bandeau">
+            <nav>
+                <a href="#Outfits" onclick="FetchShop('outfit')">Outfits</a>
+                <a href="#Pickaxes" onclick="FetchShop('pickaxe')">Pickaxes</a>
+                <a href="#Gliders" onclick="FetchShop('glider')">Gliders</a>
+                <a href="#Back Blings" onclick="FetchShop('backpack')">Back Blings</a>
+                
+            </nav>
+        </div>
+         <div id="FortniteSkin"></div>
+    </body>
+
+
+
+</html>
